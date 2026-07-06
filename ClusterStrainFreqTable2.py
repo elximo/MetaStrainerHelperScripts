@@ -44,7 +44,7 @@ with open(args.clusters, 'r') as cdhit_cluster_file:
 			# 1       1621979nt, >D14_L1_2_S19_L001_ConcatStrain1... at +/99.71%
 			# 2       1621979nt, >D14_L1_4_S17_L001_ConcatStrain1... at +/99.64%
 			if '*' in line:
-				repStrain = "Cluster_" +str(clusterIndex) + "_" + strainID
+				repStrain = "Cluster" +str(clusterIndex) + "_" + strainID
 			
 			strainClusterMap[strainID] = repStrain
 
